@@ -11,7 +11,7 @@ import sqlite3
 
 #----------------------Youtube API key and Channel ID---------------
 
-api_key = 'AIzaSyCz1S84LZAOceOgrEtPUI_2VmO--l9HQiI'
+api_key = 'AIzaSyCz1S84LZAOceOgrEtPUI_2VmO--l9HQiIL'
 #channel_id ='UC8butISFwT-Wl7EV0hUK0BQ'
 
 youtube = build('youtube','v3',developerKey=api_key)
@@ -141,7 +141,7 @@ if option == 'Connect to the YouTube API':
 
 #--------------------------------Connection to Mongo DB-----------------------------
 
-client = pymongo.MongoClient("mongodb://Passw0rd:rootroot@ac-6xfdclc-shard-00-00.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-01.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-02.mbwhehu.mongodb.net:27017/?ssl=true&replicaSet=atlas-q241bj-shard-0&authSource=admin&retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb://Passw0rd:karthik08@ac-6xfdclc-shard-00-00.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-01.mbwhehu.mongodb.net:27017,ac-6xfdclc-shard-00-02.mbwhehu.mongodb.net:27017/?ssl=true&replicaSet=atlas-q241bj-shard-0&authSource=admin&retryWrites=true&w=majority")
 Mongodb = client.youtube
 
 #------------------------Create Collections in MongoDB---------------------------
